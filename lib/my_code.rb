@@ -47,7 +47,6 @@ def reduce_to_total(src, starting_point=0)
 end
 
 def reduce_to_all_true(src)
-  pp src
   is_true = 0
   i = 0
   while i < src.size do
